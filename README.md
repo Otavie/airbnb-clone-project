@@ -194,3 +194,46 @@ The AirBnB Clone project relies on a relational database structure to manage use
 - A **Property** can have multiple **Bookings** and **Reviews**.
 - A **Booking** belongs to one **User** and one **Property**, and is linked to one **Payment**.
 - A **Review** links a **User** (guest) with a **Property** (host listing).
+
+---
+
+## Feature Breakdown
+
+The AirBnB Clone project is divided into several core features that replicate the essential functionality of the real AirBnB platform. Each feature is designed to provide value to users while ensuring smooth interactions between guests, hosts, and the system.
+
+### 1. User Management
+- Handles user registration, authentication (login/logout), and profile management.
+- Supports different roles (guest, host, admin) with role-based permissions.
+- Ensures data security through password hashing and secure session handling.
+
+### 2. Property Management
+- Allows hosts to create, update, and delete property listings.
+- Each property contains details such as title, description, location, price per night, and availability.
+- Provides search and filtering options so guests can easily discover properties.
+
+### 3. Booking System
+- Enables guests to book available properties for specific dates.
+- Handles booking requests, confirmations, cancellations, and status tracking.
+- Ensures that booking conflicts are avoided by maintaining property availability.
+
+### 4. Review & Rating System
+- Guests can leave reviews and ratings for properties after their stay.
+- Reviews include a star rating (1–5) and optional written feedback.
+- Helps future guests make informed decisions and allows hosts to build credibility.
+
+### 5. Payment System
+- Provides a secure way for guests to make payments for their bookings.
+- Supports multiple payment methods (credit/debit cards, PayPal, etc.).
+- Tracks payment status (pending, successful, failed) and links each payment to a booking.
+
+### 6. Search & Filtering
+- Guests can search for properties by location, date, price range, and other criteria.
+- Implements filtering and sorting to enhance the user experience.
+- Ensures that users can quickly find the most relevant listings.
+
+### 7. Admin Dashboard
+- Allows administrators to monitor and manage the platform.
+- Provides tools for managing users, properties, bookings, and reported issues.
+- Ensures the platform remains safe, reliable, and efficient for all users.
+
+---
