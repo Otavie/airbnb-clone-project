@@ -271,3 +271,48 @@ Securing the backend APIs is critical to protecting user data, preventing fraud,
 - **Why it matters:** Provides visibility into potential threats and enables rapid response to breaches or vulnerabilities.
 
 ---
+
+## CI/CD Pipeline
+
+Continuous Integration (CI) and Continuous Deployment/Delivery (CD) are essential practices for modern software development. They ensure that code changes are automatically tested, integrated, and deployed with minimal human intervention.
+
+### What is CI/CD?
+- **Continuous Integration (CI):** Every time code is pushed to the repository, automated tests and builds are triggered. This ensures that new changes don’t break existing functionality.
+- **Continuous Deployment/Delivery (CD):** Once the code passes all tests, it is automatically deployed to staging or production environments. This reduces deployment risks and speeds up delivery.
+
+### Why CI/CD is Important for this Project
+- Ensures **code quality** through automated testing and linting.
+- Provides **faster feedback loops** for developers when errors occur.
+- Enables **seamless deployments**, ensuring that new features and bug fixes reach users quickly.
+- Reduces **human error** by automating repetitive tasks such as testing, building, and deployment.
+
+### Tools for CI/CD
+- **GitHub Actions:** Automates testing, building, and deployment workflows directly from the GitHub repository.
+- **Docker:** Ensures consistent runtime environments across development, staging, and production.
+- **Heroku / AWS:** Platforms for deploying and hosting the application.
+- **pytest / unittest (Python):** For running automated tests to validate code functionality.
+
+---
+
+## CI/CD Pipeline
+
+Continuous Integration (CI) and Continuous Deployment/Delivery (CD) are essential practices for modern software development. They ensure that code changes are automatically tested, integrated, and deployed with minimal human intervention.
+
+### What is CI/CD?
+- **Continuous Integration (CI):** Every time code is pushed to the repository, automated tests and builds are triggered. This ensures that new changes don’t break existing functionality.
+- **Continuous Deployment/Delivery (CD):** Once the code passes all tests, it is automatically deployed to staging or production environments. This reduces deployment risks and speeds up delivery.
+
+### Why CI/CD is Important for this Project
+- Ensures **code quality** through automated testing and linting.
+- Provides **faster feedback loops** for developers when errors occur.
+- Enables **seamless deployments**, ensuring that new features and bug fixes reach users quickly.
+- Reduces **human error** by automating repetitive tasks such as testing, building, and deployment.
+
+### Tools for CI/CD
+- **GitHub Actions:** Automates testing, building, and deployment workflows directly from the GitHub repository.
+- **Docker:** Ensures consistent runtime environments across development, staging, and production.
+- **Heroku / AWS:** Platforms for deploying and hosting the application.
+- **pytest / unittest (Python):** For running automated tests to validate code functionality.
+
+---
+
