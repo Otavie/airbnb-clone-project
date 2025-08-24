@@ -58,7 +58,7 @@ Identifying the design properties of a mockup is essential for:
 
 ---
 
-## Team Roles
+## Team Roles or Project Roles and Responsibilities
 
 In order to build the AirBnB Clone project efficiently, the team is divided into specialized roles. Each role ensures smooth progress, quality delivery, and collaboration.
 
