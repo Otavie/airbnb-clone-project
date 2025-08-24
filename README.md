@@ -1,7 +1,9 @@
 # AirBnB Clone Project
 
-## Overview
+## Backend Overview
 The AirBnB Clone project is a step-by-step initiative to build a simplified version of the AirBnB web application. The goal is to learn and practice **full-stack development concepts** including backend, frontend, database management, and deployment.
+
+---
 
 ## Project Goals
 - Understand and implement object-oriented programming (OOP) concepts.
@@ -25,6 +27,34 @@ The AirBnB Clone project is a step-by-step initiative to build a simplified vers
    ```bash
    git clone https://github.com/Otavie/airbnb-clone-project.git
    cd airbnb-clone-project
+
+---
+
+## UI/UX Design Planning
+
+The frontend of the AirBnB Clone will follow a clean and consistent design system inspired by the mockups in Figma. Establishing design properties ensures consistency across pages and simplifies collaboration between designers and developers.
+
+### Color Styles
+- **Primary Color:** `#FF5A5F` (Airbnb Red)
+- **Secondary Color:** `#00A699` (Teal Green)
+- **Neutral Palette:** Shades of White, Gray, and Black
+- **Accent Color:** `#FC642D` (Orange)
+
+### Typography
+- **Font Family:** Inter, Sans-serif
+- **Font Weights:** 400 (Regular), 500 (Medium), 700 (Bold)
+- **Font Sizes:**
+  - Headings: 24px – 32px
+  - Subheadings: 18px – 20px
+  - Body Text: 14px – 16px
+  - Captions: 12px
+
+### Importance of Identifying Design Properties
+Identifying the design properties of a mockup is essential for:
+- **Consistency:** Ensures all screens and components follow a uniform style.  
+- **Collaboration:** Makes it easier for UI/UX designers and frontend developers to work together.  
+- **User Experience:** Maintains clarity, readability, and accessibility across the platform.  
+- **Efficiency:** Reduces development time by reusing standard design tokens instead of redefining them.  
 
 ---
 
