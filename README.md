@@ -68,3 +68,46 @@ In order to build the AirBnB Clone project efficiently, the team is divided into
 - Collaborates with frontend developers to bring designs to life.
 
 ---
+
+## Technology Stack
+
+The AirBnB Clone project uses a modern technology stack that supports **scalability**, **maintainability**, and **ease of collaboration**. Each technology serves a specific purpose in the system architecture.
+
+### 1. Python
+- The primary programming language for implementing backend logic.
+- Provides flexibility, readability, and a rich ecosystem of libraries.
+
+### 2. Django / Flask
+- **Django**: A high-level web framework that enables rapid development and clean design patterns (used for building RESTful APIs, authentication, and admin dashboards).
+- **Flask**: A lightweight alternative used for microservices and modular development when more flexibility is needed.
+
+### 3. PostgreSQL / MySQL
+- Relational database systems for storing persistent data such as users, bookings, property listings, and transactions.
+- Ensures data integrity, indexing, and optimized queries.
+
+### 4. GraphQL (optional extension)
+- Provides a flexible query language for APIs.
+- Allows frontend clients to request exactly the data they need, reducing over-fetching and under-fetching.
+
+### 5. HTML, CSS, JavaScript
+- **HTML**: Defines the structure of the frontend.
+- **CSS**: Styles and formats the interface for a visually appealing design.
+- **JavaScript**: Adds interactivity, client-side validation, and dynamic rendering.
+
+### 6. React (optional enhancement)
+- A frontend JavaScript library for building dynamic, component-based user interfaces.
+- Improves responsiveness and enhances the user experience.
+
+### 7. Git & GitHub
+- **Git**: Version control system to track code changes and enable collaboration.
+- **GitHub**: A remote repository for hosting code, managing issues, and collaborating with teammates.
+
+### 8. Docker
+- Containerization platform to package and deploy applications consistently across environments.
+- Ensures portability and eliminates "works on my machine" issues.
+
+### 9. Heroku / AWS (Deployment)
+- **Heroku**: A platform-as-a-service (PaaS) for simple deployment and scaling.
+- **AWS**: Provides cloud infrastructure for high scalability, load balancing, and production readiness.
+
+---
