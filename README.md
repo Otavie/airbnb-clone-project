@@ -14,11 +14,12 @@ The AirBnB Clone project is a step-by-step initiative to build a simplified vers
 - Deploy the application to a production environment.
 
 ## Tech Stack
-- **Programming Language:** Python  
-- **Frameworks:** Flask (backend), possibly React or vanilla HTML/CSS/JS (frontend)  
-- **Database:** MySQL / SQLite  
+- **Frontend:** HTML, CSS, JavaScript (React or similar framework)  
+- **Backend:** Python (Flask/Django)  
+- **Database:** PostgreSQL / MySQL  
 - **Version Control:** Git & GitHub  
-- **Deployment:** Docker / Heroku / AWS (depending on stage)  
+- **Design Tools:** Figma for UI/UX design  
+- **Deployment:** Docker, Heroku, AWS    
 
 ---
 
@@ -33,6 +34,29 @@ The AirBnB Clone project is a step-by-step initiative to build a simplified vers
 ## UI/UX Design Planning
 
 The frontend of the AirBnB Clone will follow a clean and consistent design system inspired by the mockups in Figma. Establishing design properties ensures consistency across pages and simplifies collaboration between designers and developers.
+
+### Design Goals
+- Create intuitive booking flow.  
+- Maintain visual consistency.  
+- Ensure fast loading times.  
+- Prioritize mobile responsiveness.  
+
+### Key Features
+- Property search and filtering.  
+- Detailed property viewing.  
+- Secure checkout process.  
+- User authentication.  
+
+### Primary Pages
+| Page                  | Description                                                        |
+|------------------------|--------------------------------------------------------------------|
+| Property Listing View  | Grid display of available properties with filters.                 |
+| Listing Detailed View  | Complete property details with images and booking form.            |
+| Simple Checkout View   | Streamlined payment and booking confirmation.                      |
+
+### Importance of User-Friendly Design
+A well-designed booking system reduces friction in the user journey, increases conversion rates, and improves customer satisfaction. Clear navigation, intuitive interfaces, and responsive design are critical for success.
+
 
 ### Color Styles
 - **Primary Color:** `#FF5A5F` (Airbnb Red)
