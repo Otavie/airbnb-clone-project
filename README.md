@@ -111,3 +111,86 @@ The AirBnB Clone project uses a modern technology stack that supports **scalabil
 - **AWS**: Provides cloud infrastructure for high scalability, load balancing, and production readiness.
 
 ---
+
+## Database Design
+
+The AirBnB Clone project relies on a relational database structure to manage users, properties, bookings, reviews, and payments. Below are the core entities, their fields, and relationships.
+
+### 1. Users
+- **Fields:**
+  - `id` (Primary Key)
+  - `name` (full name of the user)
+  - `email` (unique identifier for login)
+  - `password` (hashed for security)
+  - `role` (guest, host, or admin)
+- **Relationships:**
+  - A user can list multiple properties (Host).
+  - A user can make multiple bookings (Guest).
+  - A user can leave multiple reviews.
+
+---
+
+### 2. Properties
+- **Fields:**
+  - `id` (Primary Key)
+  - `title` (property name/listing title)
+  - `description` (details about the property)
+  - `location` (address/city)
+  - `price_per_night`
+  - `owner_id` (Foreign Key → Users.id)
+- **Relationships:**
+  - A property belongs to a user (the host).
+  - A property can have multiple bookings.
+  - A property can receive multiple reviews.
+
+---
+
+### 3. Bookings
+- **Fields:**
+  - `id` (Primary Key)
+  - `user_id` (Foreign Key → Users.id)
+  - `property_id` (Foreign Key → Properties.id)
+  - `check_in_date`
+  - `check_out_date`
+  - `status` (pending, confirmed, cancelled)
+- **Relationships:**
+  - A booking belongs to a user (the guest).
+  - A booking is tied to one property.
+  - A booking can have one associated payment.
+
+---
+
+### 4. Reviews
+- **Fields:**
+  - `id` (Primary Key)
+  - `user_id` (Foreign Key → Users.id)
+  - `property_id` (Foreign Key → Properties.id)
+  - `rating` (1–5 stars)
+  - `comment`
+  - `created_at`
+- **Relationships:**
+  - A review belongs to a user.
+  - A review belongs to a property.
+
+---
+
+### 5. Payments
+- **Fields:**
+  - `id` (Primary Key)
+  - `booking_id` (Foreign Key → Bookings.id)
+  - `amount`
+  - `payment_method` (card, PayPal, etc.)
+  - `status` (pending, successful, failed)
+  - `transaction_date`
+- **Relationships:**
+  - A payment is linked to a booking.
+  - A booking can only have one payment record.
+
+---
+
+### Entity Relationships (Summary)
+- A **User** can own multiple **Properties**.
+- A **User** can make multiple **Bookings**.
+- A **Property** can have multiple **Bookings** and **Reviews**.
+- A **Booking** belongs to one **User** and one **Property**, and is linked to one **Payment**.
+- A **Review** links a **User** (guest) with a **Property** (host listing).
