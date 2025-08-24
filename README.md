@@ -58,6 +58,42 @@ Identifying the design properties of a mockup is essential for:
 
 ---
 
+## UI Component Patterns
+
+To ensure consistency and reusability in the frontend, the project will make use of standardized UI components. These components will serve as the building blocks of the user interface, making development more efficient and ensuring a consistent user experience.
+
+### 1. Navbar
+- A responsive navigation bar that provides links to essential pages (Home, Search, Login/Signup, User Dashboard).
+- Includes logo branding and dropdown menus for user profile and account settings.
+- Ensures quick access to core features across the site.
+
+### 2. Property Card
+- Displays property details in a compact and visually appealing format.
+- Includes elements such as property image, title, location, price per night, and rating.
+- Will be reusable across multiple pages (search results, homepage, recommendations).
+
+### 3. Footer
+- Contains helpful links such as About, Contact, Privacy Policy, and Terms of Service.
+- Includes social media icons and copyright information.
+- Provides a consistent end section across all pages.
+
+### 4. Search Bar
+- Allows users to search for properties by location, date, and number of guests.
+- May include autocomplete functionality for improved usability.
+- Central to enabling discovery of listings.
+
+### 5. Booking Form / Modal
+- Provides fields for selecting check-in/check-out dates and number of guests.
+- Includes a "Book Now" call-to-action button.
+- May appear as a modal popup for smooth user experience.
+
+### 6. Review Component
+- Displays user reviews with rating stars, reviewer name, and comments.
+- Allows logged-in users to submit new reviews.
+- Enhances trust and credibility for each property listing.
+
+---
+
 ## Team Roles or Project Roles and Responsibilities
 
 In order to build the AirBnB Clone project efficiently, the team is divided into specialized roles. Each role ensures smooth progress, quality delivery, and collaboration.
