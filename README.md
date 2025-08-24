@@ -237,3 +237,37 @@ The AirBnB Clone project is divided into several core features that replicate th
 - Ensures the platform remains safe, reliable, and efficient for all users.
 
 ---
+
+## API Security
+
+Securing the backend APIs is critical to protecting user data, preventing fraud, and ensuring the reliability of the AirBnB Clone platform. The following measures will be implemented to guarantee a secure system:
+
+### 1. Authentication
+- **What it is:** Verifies the identity of users before granting access to the system (e.g., using JWT tokens or OAuth).
+- **Why it matters:** Ensures that only legitimate users can log in, preventing unauthorized access to sensitive data like profiles, bookings, and payments.
+
+### 2. Authorization
+- **What it is:** Determines what authenticated users are allowed to do based on their role (guest, host, admin).
+- **Why it matters:** Prevents users from accessing or modifying resources they shouldn’t (e.g., a guest cannot delete another host’s property).
+
+### 3. Data Encryption
+- **What it is:** Protects sensitive information using SSL/TLS for data in transit and hashing/encryption for stored data (e.g., passwords, payment details).
+- **Why it matters:** Prevents attackers from intercepting or leaking critical information such as login credentials and financial transactions.
+
+### 4. Rate Limiting & Throttling
+- **What it is:** Limits the number of requests a user or IP can make within a given time frame.
+- **Why it matters:** Protects the API from abuse, brute-force login attempts, and denial-of-service (DoS) attacks.
+
+### 5. Input Validation & Sanitization
+- **What it is:** Ensures all inputs (forms, URLs, API payloads) are validated and sanitized before processing.
+- **Why it matters:** Prevents common attacks such as SQL injection, cross-site scripting (XSS), and request forgery.
+
+### 6. Secure Payment Handling
+- **What it is:** Payments are processed via trusted third-party providers (e.g., Stripe, PayPal) with PCI-DSS compliance.
+- **Why it matters:** Ensures financial data is never directly exposed, reducing the risk of fraud and theft.
+
+### 7. Logging & Monitoring
+- **What it is:** Tracks API requests, errors, and suspicious activities for auditing and troubleshooting.
+- **Why it matters:** Provides visibility into potential threats and enables rapid response to breaches or vulnerabilities.
+
+---
